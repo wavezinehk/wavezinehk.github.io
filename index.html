@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
   <title>Wave</title>
@@ -40,6 +40,45 @@
     .links a {
       margin-right: 15px;
     }
+    .projects {
+      margin-top: 3em;
+    }
+    .project {
+      background: #181818;
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 22px;
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+    .project img {
+      width: 80px;
+      height: 80px;
+      border-radius: 6px;
+      object-fit: cover;
+      flex-shrink: 0;
+      background: #222;
+    }
+    .project-details {
+      flex: 1;
+    }
+    .project-title {
+      font-size: 1em;
+      font-weight: bold;
+      margin: 0 0 4px 0;
+      color: #fff;
+    }
+    .project-meta {
+      color: #75ffff;
+      font-size: 0.93em;
+      margin-bottom: 7px;
+    }
+    .project-link {
+      color: #00bcd4;
+      font-size: 0.96em;
+      margin-left: 6px;
+    }
   </style>
 </head>
 <body>
@@ -50,6 +89,52 @@
     呈現香港流行文化工業裡各種現象，<br>
     與大家一同討論那些值得關注的作品與人物。<br>
   </p>
+
+  <div class="projects">
+    <div class="project">
+      <img src="https://wavezinehk.com/wp-content/uploads/2025/08/ageof-1.png" alt="歲數如歌">
+      <div class="project-details">
+        <div class="project-title">
+          歲數如歌
+          <span class="project-meta">2025.8 / 互動專頁</span>
+          <a class="project-link" href="https://agesofcantopop.wavezinehk.com/" target="_blank">查看專頁</a>
+        </div>
+        <div>
+          究竟關於歲數的香港流行曲有多少？是不是每個歲數都有相關的歌？不妨搜尋一下
+        </div>
+      </div>
+    </div>
+
+    <!-- 以下可複製新增更多 project（假字+假圖連結） -->
+    <div class="project">
+      <img src="https://via.placeholder.com/80x80.png?text=Project2" alt="Project 2">
+      <div class="project-details">
+        <div class="project-title">
+          假項目名稱
+          <span class="project-meta">2025.5 / 數據圖輯</span>
+          <a class="project-link" href="https://example.com/project2" target="_blank">查看專頁</a>
+        </div>
+        <div>
+          這裡是另一個假專案的簡單介紹，日後可自由更改內容。
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="https://via.placeholder.com/80x80.png?text=Project3" alt="Project 3">
+      <div class="project-details">
+        <div class="project-title">
+          項目三
+          <span class="project-meta">2024.12 / 圖文專欄</span>
+          <a class="project-link" href="https://example.com/project3" target="_blank">查看專頁</a>
+        </div>
+        <div>
+          這是第三個示範項目的描述。
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="contact">
     <p>
       <strong>Email:</strong> <a href="mailto:wavezinehk@gmail.com">wavezinehk@gmail.com</a><br>
